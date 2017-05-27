@@ -40,19 +40,19 @@ if version < '2.2.3':
     DistributionMetadata.download_url = None
 
 try:
-    longdesc = open("README.txt","r").read()
+    longdesc = open("README.rst","r").read()
 except Exception:
     longdesc = "Sphinx Extension adding Support for peng3d events"
 
 
 setup(name='peng3d_sphinxext',
-      version="1.0",
+      version="1.0post1",
       description="Sphinx Extension adding Support for peng3d events", # from the github repo
       long_description=longdesc,
       author="notna",
       author_email="notna@apparat.org",
       url="https://github.com/not-na/peng3d_sphinxext",
-      packages=['peng3d_sphinxext'],
+      py_modules=['peng3d_sphinxext'],
       requires=["sphinx","sphinxcontrib_domaintools"],
       provides=["peng3d_sphinxext"],
       classifiers=[
