@@ -53,7 +53,7 @@ setup(name='peng3d_sphinxext',
       author_email="notna@apparat.org",
       url="https://github.com/not-na/peng3d_sphinxext",
       packages=['peng3d_sphinxext'],
-      requires=["sphinx","sphinxcontrib_domaintools"]
+      requires=["sphinx","sphinxcontrib_domaintools"],
       provides=["peng3d_sphinxext"],
       classifiers=[
         "Development Status :: 5 - Production/Stable",
